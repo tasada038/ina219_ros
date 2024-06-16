@@ -14,6 +14,17 @@ This is a ROS 2 package for the TI INA219 current/power monitoring chip with a 1
 ## Usage
 
 ```sh: Terminal
+sudo apt install python3-smbus
+```
+
+```sh: Terminal
+sudo i2cdetect -y -r 1
+
+```
+I2C Address: Four options 0x40, 0x41, 0x44, 0x45, default is `0x45`.
+
+
+```sh: Terminal
 . install/setup.bash
 ros2 run ina219_ros power_node
 ```

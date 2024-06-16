@@ -4,8 +4,8 @@
   <name>ina219_ros</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="tasada381@gmail.com">ubuntu</maintainer>
-  <license>TODO: License declaration</license>
+  <maintainer email="tasada381@gmail.com">Takumi Asada</maintainer>
+  <license>MIT</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
